@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "Modules/ModuleManager.h"
+#include "ModuleManager.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 

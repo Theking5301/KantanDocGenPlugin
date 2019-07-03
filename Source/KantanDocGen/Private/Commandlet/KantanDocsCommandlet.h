@@ -6,7 +6,19 @@
 
 #pragma once
 
-#include "LogMacros.h"
+#include "Classes/Commandlets/Commandlet.h"
+
+/*
+#include "KantanDocsCommandlet.generated.h"
 
 
-DECLARE_LOG_CATEGORY_EXTERN(LogKantanDocGen, Log, All);
+UCLASS()
+class UKantanDocsCommandlet : public UCommandlet
+{
+	GENERATED_BODY()
+
+public:
+	virtual int32 Main(FString const& Params) override;
+};
+
+*/

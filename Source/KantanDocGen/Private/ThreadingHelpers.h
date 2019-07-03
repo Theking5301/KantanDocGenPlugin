@@ -25,12 +25,12 @@ namespace DocGenThreads
 		typedef decltype(Func(Args...)) TResult;
 
 		TResult Result;
-		auto NullaryFunc = [&]
+		TFunction<void()> NullaryFunction = [&]
 		{
 			Result = Func(Args...);
 		};
 
-		FGraphEventRef Task = FFunctionGraphTask::CreateAndDispatchWhenReady(NullaryFunc, TStatId(), nullptr, ENamedThreads::GameThread);
+		FGraphEventRef Task = FFunctionGraphTask::CreateAndDispatchWhenReady(NullaryFunction, TStatId(), nullptr, ENamedThreads::GameThread);
 		FTaskGraphInterface::Get().WaitUntilTaskCompletes(Task);
 
 		return Result;

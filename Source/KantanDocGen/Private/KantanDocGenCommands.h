@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "Framework/Commands/Commands.h"
+#include "Commands.h"
 #include "Editor/EditorStyle/Public/EditorStyleSet.h"
 
 

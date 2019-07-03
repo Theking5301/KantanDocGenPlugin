@@ -6,9 +6,9 @@
 
 #include "NativeModuleEnumerator.h"
 #include "KantanDocGenLog.h"
-#include "UObject/UnrealType.h"
-#include "UObject/Package.h"
-#include "UObject/UObjectHash.h"
+#include "UnrealType.h"
+#include "Package.h"
+#include "UObjectHash.h"
 
 
 FNativeModuleEnumerator::FNativeModuleEnumerator(

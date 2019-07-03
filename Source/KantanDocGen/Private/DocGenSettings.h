@@ -6,9 +6,9 @@
 
 #pragma once
 
-#include "UObject/UnrealType.h"
+#include "UnrealType.h"
 #include "Engine/EngineTypes.h"
-#include "UObject/ObjectMacros.h"
+#include "ObjectMacros.h"
 #include "GameFramework/Actor.h"
 #include "Misc/Paths.h"
 #include "Misc/App.h"
